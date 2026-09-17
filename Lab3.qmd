@@ -1,0 +1,45 @@
+---
+title: "Lab 3"
+format: html
+editor: visual
+---
+
+## Question 1
+
+"Already up to date." 
+This makes sense because whatever was in the Repo document was already downloaded on my computer. 
+
+## Question 2
+
+You run install packages in the console because you don't need it shown in the qmd document because you don't get output. 
+
+## Question 3
+
+Library() should go in the .qmd file because then they are part of the qmd document specifically, but if you were to type it in the console, than it would not be a part of the document. show that you opened the package. if you don't open it in the qmd file, you can't use it in the qmd. 
+
+## Question 4
+
+This code doesn't work because we have not installed the Palmer penguins package.
+
+## Question 5 
+
+The first friend is right because you don't need to use library to pull up the Palmer Penguins because the original code can pull it up. think about the ::. to fix 4, you just need to install it first 
+
+## Question 6
+
+```{r}
+#| warning: false
+library(dplyr)
+```
+
+## Question 7 
+
+```{r}
+iris2 <- arrange(iris, "Petal.Length")
+
+head(iris2)
+```
+
+## Question 8 
+
+![Commit History](Commit.History.png)
